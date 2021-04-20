@@ -8,8 +8,8 @@ import weatherrestapi.weather.webclient.weather.dto2.AdzunaDTO;
 @Component
 public class JobsClient {
 
-    private final String APP_ID="d6e4fd08";
-    private final String API_Key="363099856d64eba5806158a1faea0c49";
+    private final String APP_ID="APP ID";
+    private final String API_Key="Your API KEY";
     private final String JOBS_URL="https://api.adzuna.com/v1/api/jobs/";
     WebClient jobsClient=WebClient.create(JOBS_URL);
 
