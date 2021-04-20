@@ -11,7 +11,7 @@ import weatherrestapi.weather.webclient.weather.dto.OpenWeatherDTO;
 @Component
 public class WeatherClientRestTemplate {
     private final String WEATHER_URL="https://api.openweathermap.org/data/2.5/";
-    private final String ApiKey="7795fc48147d80c5759e47e5b3c09501";
+    private final String ApiKey="Your API KEY";
 
     private RestTemplate restTemplate=new RestTemplate();
 
